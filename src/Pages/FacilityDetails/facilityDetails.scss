@@ -1,0 +1,127 @@
+.facilityDetails--container {
+  margin: 40px 30px;
+  padding: 40px 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 100%;
+
+  .loanField {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    .loan {
+      width: 50%;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+
+      .labelLoan {
+        width: 40%;
+      }
+    }
+    .takeover {
+      width: 50%;
+      display: flex;
+      gap: 25px;
+      align-items: center;
+
+      .labelLoan {
+        width: 40%;
+      }
+
+      .takeOverBox {
+        width: 50%;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+      }
+    }
+  }
+
+  .bankNameField {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+
+    .bankName {
+      width: 50%;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+
+      .labelBank {
+        width: 40%;
+      }
+    }
+
+    .amount {
+      width: 50%;
+      display: flex;
+      gap: 25px;
+      align-items: center;
+
+      .labelLoan {
+        width: 30%;
+      }
+
+      .takeOverBox {
+        width: 100%;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+      }
+    }
+  }
+
+  .facilityType {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+
+    .checkBoxType {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+}
+
+.facilityDetails--check {
+  margin: 40px 30px;
+  padding: 40px 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  gap: 50px;
+
+  .checkButton {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .check {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .labelCheck {
+      width: 10%;
+    }
+
+    .bereauinput {
+      width: 90%;
+    }
+  }
+}
+.pagination {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}

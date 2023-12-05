@@ -1,0 +1,33 @@
+.bussinessCheck--container {
+  margin: 40px 30px;
+  padding: 40px 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 100%;
+
+  .title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .mobileNo,
+  .emailId {
+    margin-bottom: 20px;
+    .labelMobNo {
+      margin-bottom: 10px;
+    }
+  }
+
+  .analysis {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    .labelMobNo {
+      width: 30%;
+    }
+    .input {
+      width: 30%;
+    }
+  }
+}

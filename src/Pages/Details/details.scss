@@ -1,0 +1,90 @@
+.page1-Container {
+  height: 100%;
+  margin: 40px 30px;
+  padding: 40px 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  .label--page1 {
+    font-size: 16px;
+    color: black;
+  }
+  .fieldsDate {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .label--page1 {
+      width: 30%;
+    }
+    .fieldError {
+      width: 70%;
+      div {
+        width: 100%;
+      }
+    }
+  }
+  .fields {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .label--page1 {
+      width: 30%;
+    }
+    .fieldError {
+      width: 70%;
+      .addressLine12 {
+        display: flex;
+        gap: 20px;
+
+        .addressline1,
+        .addressline2 {
+          width: 50%;
+        }
+
+        .addressline3 {
+          width: 35%;
+        }
+        .cityName {
+          width: 30%;
+        }
+        .stateName {
+          width: 35%;
+        }
+      }
+    }
+  }
+  .fields--half {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+    .flexRow {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      gap: 30px;
+
+      .labelHalf--page1 {
+        width: 35%;
+      }
+      .field-halfError {
+        width: 65%;
+      }
+    }
+  }
+  .pagination {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+}

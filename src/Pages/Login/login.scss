@@ -1,0 +1,45 @@
+.login--container {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: beige;
+
+  .login--title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .pan--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+
+    .panEntry--Container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      color: black;
+
+      input {
+        color: red;
+      }
+    }
+  }
+
+  .goButton {
+    height: 40px;
+    width: 120px;
+  }
+}
